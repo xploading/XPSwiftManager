@@ -12,9 +12,16 @@
 		DFCB4640212AAAE800DA7F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCB463E212AAAE800DA7F84 /* Main.storyboard */; };
 		DFCB4642212AAAE800DA7F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCB4641212AAAE800DA7F84 /* Assets.xcassets */; };
 		DFCB4645212AAAE800DA7F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCB4643212AAAE800DA7F84 /* LaunchScreen.storyboard */; };
+		DFCB464F212AAB4300DA7F84 /* XPProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB464D212AAB4200DA7F84 /* XPProperty.swift */; };
+		DFCB4650212AAB4300DA7F84 /* XPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB464E212AAB4200DA7F84 /* XPExtension.swift */; };
+		DFCB4652212AACA500DA7F84 /* XPHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB4651212AACA500DA7F84 /* XPHttpRequest.swift */; };
+		DFCB4654212AC56F00DA7F84 /* XPHintMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB4653212AC56F00DA7F84 /* XPHintMessage.swift */; };
+		E6589DFFBEA3BE8EC247239E /* Pods_XPSwiftManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE44BD249440E24F8C5A26CA /* Pods_XPSwiftManager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD60013739396A4FD14510B9 /* Pods-XPSwiftManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPSwiftManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-XPSwiftManager/Pods-XPSwiftManager.release.xcconfig"; sourceTree = "<group>"; };
+		DE44BD249440E24F8C5A26CA /* Pods_XPSwiftManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPSwiftManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCB4637212AAAE800DA7F84 /* XPSwiftManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPSwiftManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCB463A212AAAE800DA7F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFCB463C212AAAE800DA7F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		DFCB4641212AAAE800DA7F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFCB4644212AAAE800DA7F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFCB4646212AAAE800DA7F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCB464D212AAB4200DA7F84 /* XPProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPProperty.swift; sourceTree = "<group>"; };
+		DFCB464E212AAB4200DA7F84 /* XPExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPExtension.swift; sourceTree = "<group>"; };
+		DFCB4651212AACA500DA7F84 /* XPHttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPHttpRequest.swift; sourceTree = "<group>"; };
+		DFCB4653212AC56F00DA7F84 /* XPHintMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPHintMessage.swift; sourceTree = "<group>"; };
+		E43BF0888156C7BB5F7737DC /* Pods-XPSwiftManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPSwiftManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XPSwiftManager/Pods-XPSwiftManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6589DFFBEA3BE8EC247239E /* Pods_XPSwiftManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080128F4F4A86DE214252614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE44BD249440E24F8C5A26CA /* Pods_XPSwiftManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7446013C0B3B5C6995B3458D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E43BF0888156C7BB5F7737DC /* Pods-XPSwiftManager.debug.xcconfig */,
+				BD60013739396A4FD14510B9 /* Pods-XPSwiftManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DFCB462E212AAAE800DA7F84 = {
 			isa = PBXGroup;
 			children = (
 				DFCB4639212AAAE800DA7F84 /* XPSwiftManager */,
 				DFCB4638212AAAE800DA7F84 /* Products */,
+				7446013C0B3B5C6995B3458D /* Pods */,
+				080128F4F4A86DE214252614 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +86,7 @@
 		DFCB4639212AAAE800DA7F84 /* XPSwiftManager */ = {
 			isa = PBXGroup;
 			children = (
+				DFCB464C212AAB4200DA7F84 /* XPManagerBox */,
 				DFCB463A212AAAE800DA7F84 /* AppDelegate.swift */,
 				DFCB463C212AAAE800DA7F84 /* ViewController.swift */,
 				DFCB463E212AAAE800DA7F84 /* Main.storyboard */,
@@ -64,6 +97,17 @@
 			path = XPSwiftManager;
 			sourceTree = "<group>";
 		};
+		DFCB464C212AAB4200DA7F84 /* XPManagerBox */ = {
+			isa = PBXGroup;
+			children = (
+				DFCB464D212AAB4200DA7F84 /* XPProperty.swift */,
+				DFCB464E212AAB4200DA7F84 /* XPExtension.swift */,
+				DFCB4651212AACA500DA7F84 /* XPHttpRequest.swift */,
+				DFCB4653212AC56F00DA7F84 /* XPHintMessage.swift */,
+			);
+			path = XPManagerBox;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFCB4649212AAAE800DA7F84 /* Build configuration list for PBXNativeTarget "XPSwiftManager" */;
 			buildPhases = (
+				118C26EEECA7355E79EE5492 /* [CP] Check Pods Manifest.lock */,
 				DFCB4633212AAAE800DA7F84 /* Sources */,
 				DFCB4634212AAAE800DA7F84 /* Frameworks */,
 				DFCB4635212AAAE800DA7F84 /* Resources */,
+				02556FF7B76B9807317B744B /* [CP] Embed Pods Frameworks */,
+				AD181D3562FD798044877E8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +178,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02556FF7B76B9807317B744B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XPSwiftManager/Pods-XPSwiftManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		118C26EEECA7355E79EE5492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD181D3562FD798044877E8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XPSwiftManager/Pods-XPSwiftManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFCB4633212AAAE800DA7F84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFCB4654212AC56F00DA7F84 /* XPHintMessage.swift in Sources */,
 				DFCB463D212AAAE800DA7F84 /* ViewController.swift in Sources */,
+				DFCB4650212AAB4300DA7F84 /* XPExtension.swift in Sources */,
+				DFCB4652212AACA500DA7F84 /* XPHttpRequest.swift in Sources */,
+				DFCB464F212AAB4300DA7F84 /* XPProperty.swift in Sources */,
 				DFCB463B212AAAE800DA7F84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +371,7 @@
 		};
 		DFCB464A212AAAE800DA7F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43BF0888156C7BB5F7737DC /* Pods-XPSwiftManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +387,7 @@
 		};
 		DFCB464B212AAAE800DA7F84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD60013739396A4FD14510B9 /* Pods-XPSwiftManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

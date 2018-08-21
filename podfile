@@ -1,0 +1,7 @@
+platform :ios, '11.1'
+target 'XPSwiftManager' do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+use_frameworks!
+end
