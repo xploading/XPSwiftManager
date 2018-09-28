@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF175B44212BE20D00E09E97 /* XPTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF175B43212BE20D00E09E97 /* XPTool.swift */; };
 		DFCB463B212AAAE800DA7F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB463A212AAAE800DA7F84 /* AppDelegate.swift */; };
 		DFCB463D212AAAE800DA7F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB463C212AAAE800DA7F84 /* ViewController.swift */; };
 		DFCB4640212AAAE800DA7F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCB463E212AAAE800DA7F84 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		BD60013739396A4FD14510B9 /* Pods-XPSwiftManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPSwiftManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-XPSwiftManager/Pods-XPSwiftManager.release.xcconfig"; sourceTree = "<group>"; };
 		DE44BD249440E24F8C5A26CA /* Pods_XPSwiftManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPSwiftManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF175B43212BE20D00E09E97 /* XPTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPTool.swift; sourceTree = "<group>"; };
 		DFCB4637212AAAE800DA7F84 /* XPSwiftManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPSwiftManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCB463A212AAAE800DA7F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFCB463C212AAAE800DA7F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				DFCB464E212AAB4200DA7F84 /* XPExtension.swift */,
 				DFCB4651212AACA500DA7F84 /* XPHttpRequest.swift */,
 				DFCB4653212AC56F00DA7F84 /* XPHintMessage.swift */,
+				DF175B43212BE20D00E09E97 /* XPTool.swift */,
 			);
 			path = XPManagerBox;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				DFCB4650212AAB4300DA7F84 /* XPExtension.swift in Sources */,
 				DFCB4652212AACA500DA7F84 /* XPHttpRequest.swift in Sources */,
 				DFCB464F212AAB4300DA7F84 /* XPProperty.swift in Sources */,
+				DF175B44212BE20D00E09E97 /* XPTool.swift in Sources */,
 				DFCB463B212AAAE800DA7F84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

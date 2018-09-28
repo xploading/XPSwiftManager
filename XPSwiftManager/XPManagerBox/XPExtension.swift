@@ -39,6 +39,41 @@ extension UIColor{
     
 }
 
+//MARK: - Dictionary扩展
+extension Dictionary{
+    
+/** Dictionary写入本地plist
+*
+* - Parameter plistName: plist文件名
+*/
+    func wirteToPlist(plistName:String){
+        var path = Bundle.main.path(forResource: plistName, ofType: "plist")
+        if path == nil{
+            path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .allDomainsMask, true).first
+            path = String.init(format: "%@/%@.plist", path!,plistName)
+        }
+        let dict = self as NSDictionary
+        dict.write(toFile: path!, atomically: true)
+    }
+
+}
+//MARK: - Array扩展
+extension Array{
+    
+/// Array写入本地plist
+///
+/// - Parameter plistName: plist文件名
+    func writeToPlist(plistName:String){
+        var path = Bundle.main.path(forResource: plistName, ofType: "plist")
+        if path == nil{
+            path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .allDomainsMask, true).first
+            path = String.init(format: "/%@/%@.plist", path!,plistName)
+        }
+        let array = self as NSArray
+        array.write(toFile: path!, atomically: true)
+    
+    }
+}
 
 //MARK: - UIView扩展
 extension UIView{

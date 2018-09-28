@@ -12,7 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var v = UIView()
+        
+        let dict = [["小明":["age":18,"sex":"男"]],["小红":["age":"19","sex":"女"]]]
+//        dict.wirteToPlist(plistName: "test")
+        dict.writeToPlist(plistName: "test")
+        
+        let a = XPTool.readFromPlist(plistName: "aaa")
+        print(a)
+        
         
     }
 
